@@ -1,9 +1,12 @@
 package br.com.tinysoft.social.security;
 
+import org.springframework.stereotype.Component;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.context.request.WebRequestInterceptor;
 
+
+@Component
 public class ProfileRequestInterceptor implements WebRequestInterceptor {
 	
 	public void preHandle(WebRequest request) throws Exception {

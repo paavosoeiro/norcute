@@ -11,5 +11,9 @@
 		<module>social-private</module>
 		<module>social-infrastructure-common</module>
 		<module>social-professional</module>
+		<module>social-session-register</module>
+		<module>social-profile-selector</module>
+		<module>social-welcome</module>
+		<module>static-content</module>
 	</modules>
 </project>

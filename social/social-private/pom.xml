@@ -9,6 +9,18 @@
 	<artifactId>social-private</artifactId>
 	<packaging>war</packaging>
 	<name>social private profile</name>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+<!-- 					<failOnMissingWebXml>false</failOnMissingWebXml> -->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 
 	<dependencies>
 		<dependency>
@@ -20,6 +32,13 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.1.1.RELEASE</version>
+<!-- 			<scope>provided</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>4.1.1.RELEASE</version>
+<!-- 			<scope>provided</scope> -->
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>

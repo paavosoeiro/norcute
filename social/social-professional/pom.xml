@@ -9,6 +9,17 @@
 	<artifactId>social-professional</artifactId>
 	<packaging>war</packaging>
 	<name>profile professional</name>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencies>
 		<dependency>
